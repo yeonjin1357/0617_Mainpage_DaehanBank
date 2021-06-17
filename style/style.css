@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+* {
+    color: #222;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+/*
+
+        body { ..... }
+        img  { ..... }
+
+        */
+
+a:link {
+    color: #444;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: rgba(68, 68, 68, 0.5);
+}
+
+a:active {
+    color: rgba(68, 68, 68, 0.7);
+}
+
+ul {
+    list-style: none;
+}
+
+.flexContainer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+header#header{
+
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+
+}
+
+#headerwrap{
+    background-color: #0076be;
+}
+
+#headerlogo{
+    height: 100px;
+    padding-top: 30px;
+
+}
+
+
+#gnb{
+
+    padding-left: 400px;
+}
+
+#mainMenu{
+
+}
+
+#mainLi{
+   height: 40px;
+    line-height: 40px;
+    padding: 0px 55px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+#slide{
+    position: relative;
+}
+
+#slidetext{
+    /*border: 1px solid #000;*/
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    text-align: center;
+}
+
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+table{
+    border: 1px solid #666;
+}
+
+td{
+    padding: 10px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+button{
+    border: 1px solid #000;
+    border-bottom-color: #fff;
+    background-color: #eee;
+    font-size: 20px
+
+}
+
+#notice{
+    position: relative;
+}
+
+#no_button{
+    position: relative;
+    left: 40px;
+    top: 1px;
+    z-index: 1;
+}
+
+#gal_button{
+    position: relative;
+    left: 36px;
+    top: 1px;
+    z-index: 1;
+}
+
+button:hover{
+    color: #ccc;
+}
+
+#banner1{
+    margin: 0px 100px;
+}
+
+#banner2{
+    margin: 0px 100px;
+}
+
+#footerwrap{
+    background-color: #0076be;
+}
+
+footer#footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+#footerlogo{
+    height: 100px;
+    padding-top: 30px;
+}
+
+#lnbwrap{
+    text-align: center;
+}
+
+#lnbmenu{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+#lnbLi{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#copyright{
+
+}
+
+#lnbwrap{
+    padding-left: 200px;
+}
+
+#lnb{
+    padding-left: 80px;
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin: 0 auto;
+
+}
+
+img{
+    /*vertical-align: middle; 이미지 옆에 인라인 요소가 중간 정렬 되서 나옴*/
+
+    /* outline 10px solid #000; 마진과 보더 사이 대상이 포커스 되었을 때 알려주기 위한 선 */
+}
